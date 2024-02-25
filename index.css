@@ -1,0 +1,137 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    border: 2px solid rgba(86, 83, 83, 0.401);
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 15px auto;
+    color: #e65b00;
+    word-spacing:10px;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.top-area ul {
+    border: 1px dashed rgb(211, 196, 196);
+    border-radius: 5px;
+    padding: 5px 10px; /* Removed underscore */
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.top-area ul li {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.top-area ul li img {
+    height: 15px;
+}
+
+.active {
+    background-color: rgba(135, 207, 235, 0.655);
+    border-radius: 5px;
+}
+
+#color {
+    width: self;
+    height: self;
+}
+
+.content-area {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.content-area textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 14px;
+}
+
+#fonts {
+    height: self;
+    width: self;
+}
+
+#fonts div {
+    height: self;
+    width: self;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+#fonts span {
+    height: self;
+    width: self;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#fonts i {
+    height: self;
+    width: self;
+    margin: 2px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.case {
+    text-transform: uppercase;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignJustify {
+    text-align: justify;
+}
