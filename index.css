@@ -135,3 +135,18 @@
 .alignJustify {
     text-align: justify;
 }
+
+.button-box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#downloadBtn  {
+    background-color: #5425ed;
+    color:white;
+    width:150px;
+    height:40px;
+    font-size: 1.5rem;
+    border:none;
+    border-radius: 0.5rem;
+}
